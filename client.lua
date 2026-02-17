@@ -240,5 +240,5 @@ AddEventHandler('onResourceStart', function(resourceName)
     if GetCurrentResourceName() ~= resourceName then return end
     lib.print.info("Resource Started Successfully!")
     StartPointLoop()
-    StartZones
+    StartZones()
 end)
